@@ -1,0 +1,65 @@
+/* Main global styling */
+
+body, html {
+margin: 0px;
+overflow: hidden;
+}
+
+@font-face {
+font-family: Open Sans Light;
+src: url(OpenSans-Light.ttf);
+}
+
+body {
+font-family: Open Sans Light;
+}
+
+.topbar {
+background-color: #465C98;
+width: 100%;
+padding: 3px;
+color: white;
+font-size: 14px;
+padding-left: 20px;
+box-sizing : border-box;
+}
+
+.menu-option {
+margin-left: 25px;
+color: white !important;
+text-decoration: none !important;
+}
+
+#left {
+float:left;
+width:180px;
+background-color: #3A4C80;
+color: white;
+padding: 0px 10px;
+height: 100vh;
+}
+
+#right {
+width: 100%;
+background-color: lightgrey;
+padding: 10px;
+box-sizing : border-box;
+height: 100vh;
+}
+
+.bold {
+font-weight: bold;
+}
+
+.list-sidebar {
+margin: 0px;
+padding: 0px;
+padding-left: 12px;
+}
+
+.item-sidebar {
+list-style-type: none;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+}
